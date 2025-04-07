@@ -1,0 +1,17 @@
+{
+  "name": "open-telemetry-full-stack-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace backend start:dev\" \"yarn workspace frontend start\"",
+    "build": "yarn workspace backend build && yarn workspace frontend build",
+    "test": "yarn workspace backend test && yarn workspace frontend test"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}

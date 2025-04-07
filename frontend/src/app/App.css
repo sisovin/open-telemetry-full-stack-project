@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.Navbar {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.Footer {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.MainLayout {
+  padding: 20px;
+}
+
+.AdminLayout {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.UsersPage {
+  margin: 20px;
+}
+
+.CommentsPage {
+  margin: 20px;
+}
